@@ -1,0 +1,67 @@
+body,div,ul,li,a,img{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    font-size: 0;
+}
+
+div#div1{
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    top: 50px;
+}
+
+ul#ul{
+    position: relative;
+    width: 3500px;
+    left: -500px;
+}
+
+ul#ul li{
+    display: inline;
+}
+
+ul#ul li img{
+    width: 500px;
+    height: 400px;
+}
+
+li{
+    list-style: none;
+}
+div#btn{
+    position: absolute;
+    left: 0;right: 0;
+    margin: auto;
+    bottom: 1px;
+}
+div#btn ul{
+    text-align: center;
+}
+div#btn li{
+    font-size: 18px;
+    display:inline-block;
+    padding: 3px 7px;
+    background-color: rgba(0,0,0,0.4);
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+div#btn li.active{
+    background-color: rgba(255,0,0,0.4);
+}
+div#div1 .left{
+    position: absolute;
+    top: 0;bottom: 0;
+    margin: auto;
+    cursor: pointer;
+}
+div#div1 .right{
+    position: absolute;
+    top: 0;bottom: 0;right: 0;
+    margin: auto;
+    cursor: pointer;
+}
